@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Dağıtım ve paketleme (Distribution / packaging)
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Sanal ortamlar (Virtual Environments)
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editör ayarları
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test & Coverage çıktıları
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# Rescat geçici dosyaları, analiz raporları ve loglar
+*.log
+rescat_rapor_*.json
+rescat_rapor_*.stix
+adli_yedek_*
+*.tmp
+
+# İşletim sistemi kalıntıları
+.DS_Store
+Thumbs.db
